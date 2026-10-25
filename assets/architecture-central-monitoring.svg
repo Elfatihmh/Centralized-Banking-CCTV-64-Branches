@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="840" viewBox="0 0 1400 840" role="img" aria-labelledby="title desc">
+<title id="title">Centralized bank CCTV network — 64 branches, head-office monitoring only</title>
+<desc id="desc">Branches 1 to 64 contain IP cameras, switches, and routers only. Camera streams pass through WAN to central recording and a single monitoring room at head office. No local preview or screens in branches.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<linearGradient id="navy" x1="0" x2="1"><stop stop-color="#0a3270"/><stop offset="1" stop-color="#1168b7"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2364a6"/></marker>
+<style>.t{font-family:Arial,Helvetica,sans-serif;fill:#142b4a}.header{font-size:35px;font-weight:800}.sub{font-size:17px;fill:#526983}.label{font-size:18px;font-weight:750}.small{font-size:14px;fill:#3e5a7a}.box{fill:#fff;stroke:#cbdbee;stroke-width:2}.device{fill:#ebf4ff;stroke:#82b0e5;stroke-width:1.5}.line{fill:none;stroke:#2364a6;stroke-width:4;marker-end:url(#arrow)}.branchline{fill:none;stroke:#1b8a74;stroke-width:3}</style>
+</defs>
+<rect width="1400" height="840" fill="url(#bg)"/>
+<text x="700" y="65" class="t header" text-anchor="middle">CENTRALIZED CCTV SURVEILLANCE SYSTEM</text>
+<text x="700" y="98" class="t sub" text-anchor="middle">64 BANK BRANCHES • ONE CENTRAL MONITORING ROOM AT HEAD OFFICE</text>
+<rect x="35" y="135" width="490" height="568" rx="22" class="box"/>
+<rect x="35" y="135" width="490" height="52" rx="20" fill="url(#navy)"/>
+<text x="280" y="169" font-family="Arial" font-size="21" font-weight="bold" text-anchor="middle" fill="#fff">DISTRIBUTED BANK BRANCHES (1–64)</text>
+<g transform="translate(60 212)">
+<rect width="440" height="122" rx="14" class="device"/>
+<text x="16" y="27" class="t label">BRANCH 01</text>
+<circle cx="48" cy="65" r="20" fill="#fff" stroke="#1b8a74" stroke-width="3"/><circle cx="48" cy="65" r="7" fill="#1b8a74"/>
+<path d="M72 65H130" class="branchline"/><rect x="130" y="47" width="110" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="185" y="69" class="t small" text-anchor="middle">Access switch</text><path d="M240 65H275" class="branchline"/>
+<rect x="275" y="47" width="145" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="347" y="69" class="t small" text-anchor="middle">Router / FW</text>
+<text x="48" y="103" class="t small" text-anchor="middle">IP cameras</text>
+</g>
+<g transform="translate(60 357)">
+<rect width="440" height="122" rx="14" class="device"/>
+<text x="16" y="27" class="t label">BRANCH 02</text>
+<circle cx="48" cy="65" r="20" fill="#fff" stroke="#1b8a74" stroke-width="3"/><circle cx="48" cy="65" r="7" fill="#1b8a74"/>
+<path d="M72 65H130" class="branchline"/><rect x="130" y="47" width="110" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="185" y="69" class="t small" text-anchor="middle">Access switch</text><path d="M240 65H275" class="branchline"/>
+<rect x="275" y="47" width="145" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="347" y="69" class="t small" text-anchor="middle">Router / FW</text>
+<text x="48" y="103" class="t small" text-anchor="middle">IP cameras</text>
+</g>
+<text x="280" y="510" class="t header" text-anchor="middle">⋮</text>
+<g transform="translate(60 540)">
+<rect width="440" height="122" rx="14" class="device"/>
+<text x="16" y="27" class="t label">BRANCH 64</text>
+<circle cx="48" cy="65" r="20" fill="#fff" stroke="#1b8a74" stroke-width="3"/><circle cx="48" cy="65" r="7" fill="#1b8a74"/>
+<path d="M72 65H130" class="branchline"/><rect x="130" y="47" width="110" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="185" y="69" class="t small" text-anchor="middle">Access switch</text><path d="M240 65H275" class="branchline"/>
+<rect x="275" y="47" width="145" height="36" rx="7" fill="#fff" stroke="#1b8a74" stroke-width="2"/>
+<text x="347" y="69" class="t small" text-anchor="middle">Router / FW</text>
+<text x="48" y="103" class="t small" text-anchor="middle">IP cameras</text>
+</g>
+<rect x="564" y="329" width="176" height="138" rx="30" fill="#e1edff" stroke="#2364a6" stroke-width="3"/>
+<text x="652" y="378" class="t label" text-anchor="middle">NATIONAL</text>
+<text x="652" y="408" class="t label" text-anchor="middle">WAN</text>
+<text x="652" y="439" class="t small" text-anchor="middle">Branch links</text>
+<path d="M500 277H541V374H564M500 422H564M500 605H541V439H564" class="line" style="marker-end:none"/>
+<path d="M740 398H794" class="line"/>
+<rect x="795" y="135" width="570" height="568" rx="22" class="box"/>
+<rect x="795" y="135" width="570" height="52" rx="20" fill="url(#navy)"/>
+<text x="1080" y="169" font-family="Arial" font-size="21" font-weight="bold" text-anchor="middle" fill="#fff">HEAD OFFICE / DATA CENTER</text>
+<rect x="830" y="207" width="500" height="92" rx="13" class="device"/>
+<text x="1080" y="239" class="t label" text-anchor="middle">Core routing and switching</text>
+<text x="1080" y="271" class="t small" text-anchor="middle">Central network services and segmentation</text>
+<path d="M1080 299V326" class="line"/>
+<rect x="830" y="327" width="500" height="100" rx="13" class="device"/>
+<text x="1080" y="361" class="t label" text-anchor="middle">Central surveillance / recording</text>
+<text x="1080" y="391" class="t small" text-anchor="middle">Main NVR • stream distribution • management</text>
+<path d="M1080 427V455" class="line"/>
+<rect x="830" y="458" width="500" height="205" rx="13" fill="#edf9f6" stroke="#1b8a74" stroke-width="2.5"/>
+<text x="1080" y="489" class="t label" text-anchor="middle">ONLY MONITORING ROOM — HEAD OFFICE</text>
+<g fill="#123c70" stroke="#eaf2ff" stroke-width="3">
+<rect x="868" y="511" width="132" height="77" rx="7"/>
+<rect x="1015" y="511" width="132" height="77" rx="7"/>
+<rect x="1162" y="511" width="132" height="77" rx="7"/>
+</g>
+<g stroke="#7ed6c6" stroke-width="2" fill="none">
+<path d="M881 545l25-14 32 23 46-30M1027 540l23 18 35-27 50 15M1175 550l32-18 30 19 40-27"/>
+</g>
+<text x="1080" y="625" class="t small" text-anchor="middle">Video wall and operator workstations • live viewing here only</text>
+<rect x="35" y="728" width="1330" height="79" rx="16" fill="#fff" stroke="#d0dff0" stroke-width="2"/>
+<text x="700" y="758" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#103d70">NO BRANCH VIDEO PREVIEW • NO BRANCH VIEWING SCREENS</text>
+<text x="700" y="785" class="t small" text-anchor="middle">Conceptual portfolio diagram • not a production network topology • no confidential addressing or branch locations</text>
+</svg>
